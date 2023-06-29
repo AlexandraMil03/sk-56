@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2018-07-17 12:10">
+  <shop>
+    <name>Стальная компания</name>
+    <company>ООО Стальная компания</company>
+    <url>s-k56.ru/vakansii</url>
+    <email>stal-kom@inbox.ru</email>
+    <currencies>
+      <currency id="RUR" rate="1" />
+    </currencies>
+    <categories>
+      <category id="1">Вакансии стальной компании</category>
+    </categories>
+    <!--Добавили sets по сравнению с обычным YML-->
+    <sets>
+      <set id="s1">
+        <name>Производственная деятельность</name>
+        <url>https://s-k56.ru/vakansii</url>
+      </set>
+      <set id="s2">
+        <name>Информационные технологии, интернет, телеком</name>
+        <url>https://s-k56.ru/vakansii</url>
+      </set>
+    </sets>
+    <offers>
+      <offer id="sv1a1e3529s1">
+        <name>Инженер наладчик АСУ</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">40000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      <offer id="v45648321">
+        <name>Инженер технолог программист (обработка металлов резанием)</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">40000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      <offer id="v456756421">
+        <name>Инженер технолог программист (обработка металлов резанием)</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">40000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v456756421">
+        <name>Начальник производства (в Орск)</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">60000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567564661">
+        <name>Оператор станков с ЧПУ</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">30000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567564536">
+        <name>Машинист экскаватора</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">30000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567564536">
+        <name>Токарь (Орск) </name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">25000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567564536">
+        <name>токарь ЧПУ (Орск) </name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">25000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v45rt64536">
+        <name>Помощник слесаря (Орск) </name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">20000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567563536">
+        <name>Инженер - конструктор (Оренбург)</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">35000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v456756236">
+        <name>Инженер - технолог</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">35000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567562356">
+        <name>Слесарь КиПА</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">35000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+      
+      <offer id="v4567564466">
+        <name>Сварщик (Орск)</name>
+        <vendor>Стальная компания</vendor>
+        <url>https://s-k56.ru/vakansii</url>
+        <price from="true">30000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://s-k56.ru/images/system/vakansia-injener.jpg</picture>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>

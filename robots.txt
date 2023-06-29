@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.htm
+Sitemap: https://s-k56.ru/sitemap.xml
+Host: s-k56.ru
+Disallow: /*?
+Disallow: /*&
+Disallow: /*=

@@ -1,0 +1,163 @@
+####################################################################################################
+#Разные параметры:
+Options -Indexes
+AddDefaultCharset UTF-8
+RewriteEngine on
+####################################################################################################
+#Страницы пользователя:
+RewriteRule  ^index$ index.php [L]
+RewriteRule  ^404.html$ pages/user/404.php [L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://s-k56.ru/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.s-k56.ru
+RewriteRule (.*) https://s-k56.ru$1 [R=301,L]
+
+#Переадресация со старых страниц:
+redirect 301 /struzhkodrobilki.-kompleksyi-dlya-izmelcheniya-struzhki/ https://s-k56.ru/struzhkodrobilki
+redirect 301 /sk-sdk-1-20.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /sk-sdk-1-15.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /sk-sdk-1-12.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /sk-sdk-1-7.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /struzhkodrobilki.-razryivnyie-mashinyi/ https://s-k56.ru/explosive_machines
+redirect 301 /sk-rm-5-1-20.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-rm-5-1-15.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-rm-4-1-10.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-rm-3-1-5.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-rm-1-2-2.html https://s-k56.ru/explosive_machines
+redirect 301 /skpm12.html https://s-k56.ru/explosive_machines
+redirect 301 /struzhkodrobilki.-molotkovyie-drobilki/ https://s-k56.ru/hammer_shredders
+redirect 301 /skmd120.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-md-1-12.html https://s-k56.ru/explosive_machines
+redirect 301 /sk-md-1-7.html https://s-k56.ru/explosive_machines
+redirect 301 /upgrading-sda7.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /upgrading-b6238.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /hammer-mills.html https://s-k56.ru/hammer_shredders
+redirect 301 /tokarnyie-rabotyi.html https://s-k56.ru/turning_works
+redirect 301 /proizvodstvo-realizaciya-briketov-kategorii-6a.html https://s-k56.ru/briquette_production
+redirect 301 /gruzoperevozki-orenburg-orsk.html https://s-k56.ru
+redirect 301 /contacts.html https://s-k56.ru/feedback
+redirect 301 /gruzoperevozki-orenburg-orsk.html https://s-k56.ru
+redirect 301 /struzhkodrobilki/ https://s-k56.ru/struzhkodrobilki
+redirect 301 /drobilnoe-oborudovanie/ https://s-k56.ru/struzhkodrobilki
+redirect 301 /zakupaem-struzhku-metallicheskyu/ https://s-k56.ru/struzhka
+redirect 301 /plasma_cutting.html https://s-k56.ru/plazmennaya-rezka
+redirect 301 /docs/price.pdf https://s-k56.ru/documents.html
+redirect 301 /zakupaem-struzhku-metallicheskyu.html https://s-k56.ru/struzhka
+redirect 301 /struzhkodrobilki.htmldocs/MOVIE.m4v https://s-k56.ru/struzhkodrobilki
+redirect 301 /Thanks.html https://s-k56.ru/thanks
+redirect 301 /crushing_plants.html https://s-k56.ru/struzhkodrobilki
+#Переадресация с преждних страниц (Убрал .html в конце):
+redirect 301 /robotics.html https://s-k56.ru/robotics
+redirect 301 /authorization.html https://s-k56.ru/authorization
+redirect 301 /briquette_production.html https://s-k56.ru/briquette_production
+redirect 301 /our-partners.html https://s-k56.ru/our-partners
+redirect 301 /plazmennaya-rezka.html https://s-k56.ru/plazmennaya-rezka
+redirect 301 /turning_works.html https://s-k56.ru/turning_works
+redirect 301 /struzhkodrobilki.html https://s-k56.ru/struzhkodrobilki
+redirect 301 /explosive_machines.html https://s-k56.ru/explosive_machines
+redirect 301 /hammer_shredders.html https://s-k56.ru/hammer_shredders
+redirect 301 /documents.html https://s-k56.ru/documents
+redirect 301 /policy.html https://s-k56.ru/policy
+redirect 301 /feedback.html https://s-k56.ru/feedback
+redirect 301 /about.html https://s-k56.ru/about
+redirect 301 /struzhka.html https://s-k56.ru/struzhka
+redirect 301 /thanks.html https://s-k56.ru/thanks
+redirect 301 /sk-sdk-plants.html https://s-k56.ru/sk-sdk-plants
+redirect 301 /security.html https://s-k56.ru/security
+redirect 301 /drobilnoe-oborudovanie.html https://s-k56.ru/drobilnoe-oborudovanie
+redirect 301 /bearing-housing.html https://s-k56.ru/bearing-housing
+redirect 301 /briquetting-press.html https://s-k56.ru/briquetting-press
+redirect 301 /briquetting-lines.html https://s-k56.ru/briquetting-lines
+redirect 301 /ferroalloy_briquetting.html https://s-k56.ru/ferroalloy_briquetting
+redirect 301 /pumps.html https://s-k56.ru/pumps
+redirect 301 /foundry.html https://s-k56.ru/foundry
+redirect 301 /restore_password.html https://s-k56.ru/restore_password
+redirect 301 /exit.html https://s-k56.ru/exit
+redirect 301 /tokarniye_stanki.html https://s-k56.ru/tokarniye_stanki
+redirect 301 /lasernaya-rezka.html https://s-k56.ru/lasernaya-rezka
+redirect 301 /drugoe_oborudovanie.html https://s-k56.ru/drugoe_oborudovanie
+
+
+#Переадресация конвеерное оборудование:
+redirect 301 /conveyor-equipment/ https://s-k56.ru
+redirect 301 /belt-conveyor.html https://s-k56.ru
+redirect 301 /screw-conveyor.html https://s-k56.ru
+#Корпуса подшипников:
+redirect 301 /korpusa-podshipnikov.html https://s-k56.ru/bearing-housing
+
+ 
+RewriteRule  ^briquette_production$ pages/user/briquette_production.php [L]
+RewriteRule  ^our-partners$ pages/user/our-partners.php [L]
+RewriteRule  ^plazmennaya-rezka$ pages/user/plazmennaya-rezka.php [L]
+RewriteRule  ^turning_works$ pages/user/turning_works.php [L]
+RewriteRule  ^struzhkodrobilki$ pages/user/struzhkodrobilki.php [L]
+RewriteRule  ^explosive_machines$ pages/user/explosive_machines.php [L]
+RewriteRule  ^hammer_shredders$ pages/user/hammer_shredders.php [L]
+RewriteRule  ^documents$ pages/user/documents.php [L]
+RewriteRule  ^robotics$ pages/user/robotics.php [L]
+RewriteRule  ^policy$ pages/user/policy.php [L]
+RewriteRule  ^feedback$ pages/user/feedback.php [L]
+RewriteRule  ^about$ pages/user/about.php [L]
+RewriteRule  ^struzhka$ pages/user/struzhka.php [L]
+RewriteRule  ^thanks$ pages/user/thanks.php [L]
+RewriteRule  ^sk-sdk-plants$ pages/user/sk-sdk-plants.php [L]
+RewriteRule  ^security$ pages/user/security.php [L]
+RewriteRule  ^drobilnoe-oborudovanie$ pages/user/drobilnoe-oborudovanie.php [L]
+RewriteRule  ^briquetting-press$ pages/user/briquetting-press.php [L]
+RewriteRule  ^briquetting-lines$ pages/user/briquetting-lines.php [L] # - брикетировочные линии, нужно сделать
+RewriteRule  ^ferroalloy_briquetting$ pages/user/ferroalloy_briquetting.php [L]
+RewriteRule  ^pumps$ pages/user/pumps.php [L]
+RewriteRule  ^foundry$ pages/user/foundry.php [L]
+RewriteRule  ^authorization$ pages/user/authorization.php [L]
+RewriteRule  ^restore_password$ pages/user/restore_password.php [L]
+RewriteRule  ^exit$ pages/user/exit.php [L]
+RewriteRule  ^cabinet$ pages/user/cabinet.php [L]
+RewriteRule  ^zakupki$ pages/user/zakupki.php [L]
+RewriteRule  ^vakansii$ pages/user/vakansii.php [L]
+RewriteRule  ^practice-for-students$ pages/user/practice-for-students.php [L]
+RewriteRule  ^bearing-housing$ pages/user/bearing-housing.php [L] # - корпуса подшипников, нужно сделать
+RewriteRule  ^nalichie$ pages/user/nalichie.php [L]
+RewriteRule  ^stroit_othody$ pages/user/stroit_othody.php [L]
+RewriteRule  ^zernovaya_drobilka$ pages/user/zernovaya_drobilka.php [L]
+RewriteRule  ^tokarniye_stanki$ pages/user/tokarniye_stanki.php [L]
+RewriteRule  ^lasernaya-rezka$ pages/user/lasernaya-rezka.php [L]
+RewriteRule  ^drugoe_oborudovanie$ pages/user/drugoe_oborudovanie.php [L]
+
+
+RewriteRule  ^zakupki/testovaya-kategoriya$ pages/user/section/testovaya-kategoriya.php [L]
+###ADD-SECTION###
+
+
+RewriteRule  ^zakupki/testovaya-kategoriya/testovaya-podkategoriya$ pages/user/new_category/testovaya-kategoriya/testovaya-podkategoriya.php [L]
+###ADD-PAGE###
+
+
+RewriteRule  ^admin/user_administration$ pages/admin/user_administration.php [L]
+RewriteRule  ^admin/procurement-editing$ pages/admin/procurement_editing.php [L]
+RewriteRule  ^admin/add-new-section$ pages/admin/add_new_section.php [L]
+RewriteRule  ^admin/add-new-category$ pages/admin/add_new_category.php [L]
+RewriteRule  ^admin/add-new-zakupka$ pages/admin/add-new-zakupka.php [L]
+RewriteRule  ^admin/services_and_prices$ pages/admin/services_and_prices.php [L]
+RewriteRule  ^admin/vakansii-edit$ pages/admin/vakansii_edit.php [L]
+RewriteRule  ^admin/vakansii-add$ pages/admin/vakansii-add.php [L]
+
+RewriteRule  ^admin/telegram_bot$ pages/admin/telegram_bot.php [L]
+RewriteRule  ^send_mail_pattern$ system_files/send_mail_pattern.php [L]
+
+
+####################################################################################################
+#Прочее системное:
+RewriteRule  ^favicon.ico$ images/manifest/favicon.ico [L]
+#RewriteRule  ^style/main([0-9]*).css$ style/main.css [L]
+####################################################################################################
+#Страница 404 (ошибки)
+ErrorDocument 400 /404.html
+ErrorDocument 401 /404.html
+ErrorDocument 402 /404.html
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /404.html
+ErrorDocument 502 /404.html
